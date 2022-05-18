@@ -1,6 +1,6 @@
 const cli = require('commander')
 const chalk = require('chalk')
-const repl = require('./cli/utils/repl')
+const repl = require('./utils/repl')
 
 cli.version('1.0.0').description('CLI For Datagrid storage')
 cli.command('init').action(() => {
